@@ -1,0 +1,169 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.main {
+    margin: 60px auto;
+    max-width: 66%;
+}
+
+.secondary {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 96px;
+}
+
+h2 {
+    font-size: 48px;
+    padding-top: 40px;
+}
+
+h3 {
+    font-size: 24px;
+    opacity: 0.7;
+}
+
+p {
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.navigation-links a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.contact-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+
+.about-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+}
+
+.about-paragraphs {
+    display: flex;
+    margin: 30px 0;
+}
+
+.about-paragraphs p {
+    margin: 10px;
+}
+
+.email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+.title-size {
+    font-size: 49px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.navbar-spacing {
+    padding-left: 300px;
+    padding-right: 80px;
+}
+
+@media(width <576px){
+    .navbar-spacing{
+        display:none;
+    }
+
+    h1, .home-page{
+    font-size:32px;
+    font-weight:480px;
+    margin:0;
+    }
+
+    h2{font-size:28px;}
+
+    h3{
+        font-size: 14px;
+        text-align: center;}
+
+    .navbar-spacing{
+        padding-left:20px;
+        padding-right:15px;
+    }
+    .btn{
+        font-size: 12px;
+    }
+    .btn-small-screen-spacing{
+        margin-bottom:15px;
+    }
+    .weather-small-screen-title{
+        font-size: 46px;
+        margin-top:15px;
+        margin-bottom:0;
+    }
+    .contact-footer{
+        font-size: 36px;
+    }
+    .email-link{
+        margin-bottom:30px;
+        font-size:22px;
+    }
+    h1, .about-me-page{
+        font-size: 40px;
+    }
+    h3, .about-me-page{
+        font-size: 18px;
+        padding-top:8px;
+    }
+}
+
+.btn:hover {
+    color: rgb(42, 42, 217);
+    background-color: var(--primary-color);
+}
+
+.about-link:hover {
+    color: rgb(42, 42, 217);
+}
+
+.image-size {
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+}
